@@ -1,0 +1,43 @@
+/* Unchanged */
+/* Default CSS Stylesheet for a new Web Application project */
+
+body {
+   font-family : arial, helvetica;
+   font-size   : 12px;
+   background-color: #A0A4A3; 
+}
+
+a 
+{
+	color: blue;
+}
+
+
+.gFont {
+   font-family : verdana, tahoma, arial, helvetica;
+   font-size   : 10px;
+   color: #606160
+}
+
+.footer a
+{
+   font-family : verdana, tahoma, arial, helvetica;
+   font-size   : 10px;
+   color: white;
+}
+
+li
+{
+   padding-top:5;
+   font-family : verdana, tahoma, arial, helvetica;
+   font-size   : 10px;
+   color: #606160
+}
+
+.subTitles
+{
+	font-weight:bold;
+	color:#022C56;
+	font-family : verdana, tahoma, arial, helvetica;
+    font-size   : 11px;
+}
