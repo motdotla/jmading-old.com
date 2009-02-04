@@ -5,9 +5,8 @@ set :use_sudo, false
 # CUSTOM OPTIONS
 # =============================================================================
 set :user, "scottmotte"
-set :application, "jmading.com"
-# set :domain, "jmading.com"
-set :domain, "209.20.81.23"
+set :application, "jmading-old.com"
+set :domain, "jmading.com"
 
 role :app, domain
 role :web, domain
@@ -42,7 +41,7 @@ ssh_options[:port] = 1985
 # =============================================================================
 # RAKE TASKS & OTHER SERVER TASKS
 # =============================================================================
-desc "Create symlink to public_html/jmading.com/public"
+desc "Create symlink to public_html/jmading-old.com/public"
 task :symlinkify do
   run "rm -rf /home/#{user}/public_html/jmading.com/public; ln -s #{current_path}/public /home/#{user}/public_html/jmading.com"
 end
